@@ -28,6 +28,18 @@
     }
 }
 
+@media(max-width: 786px) {
+    .cabeça {
+        background-image: url('imagens/fundo3.png');
+    }
+}
+
+@media(max-width: 768px) {
+    .cabeça {
+        background-image: url('imagens/fundo3-pq1.png');
+    }
+}
+
 @media(max-width: 732px) {
     .cabeça {
         background-image: url('imagens/fundo3.png');
@@ -41,6 +53,12 @@
 }
 
 @media(max-width: 717px) {
+    .cabeça {
+        background-image: url('imagens/fundo3-pq1.png');
+    }
+}
+
+@media(max-width: 667px) {
     .cabeça {
         background-image: url('imagens/fundo3.png');
     }
@@ -66,7 +84,7 @@
 
 @media(max-width: 480px) {
     .cabeça {
-        background-image: url('imagens/fundo3-pq2.png');
+        background-image: url('imagens/fundo3-pq1.png');
     }
 }
 
@@ -78,19 +96,19 @@
 
 @media(max-width: 411px) {
     .cabeça {
-        background-image: url('imagens/fundo3-pq2.png');
+        background-image: url('imagens/fundo3-pq1.png');
     }
 }
 
 @media(max-width: 393px) {
     .cabeça {
-        background-image: url('imagens/fundo3-pq1.png');/**/
+        background-image: url('imagens/fundo3-pq1.png');
     }
 }
 
 @media(max-width: 320px) {
     .cabeça {
-        background-image: url('imagens/fundo3.png');
+        background-image: url('imagens/fundo3-pq1.png');
     }
 }
 
