@@ -338,8 +338,16 @@ div p {
     margin: 0px -10px;
 }
 
+.logowhats:active {
+    transform: scale(1.3);
+}
+
 .logoinsta {
     width: 70px;
     height: 70px;
     margin: 0px -10px;
+}
+
+.logoinsta:active {
+    transform: scale(1.3);
 }
