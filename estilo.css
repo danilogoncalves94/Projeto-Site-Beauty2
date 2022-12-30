@@ -4,6 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&display=swap');
 
+/*
+    NÃO MUITO RESPONSIVO COM:   
+        - JioPhone 2 (320 x 240)
+        - Surface Duo (720 x 1114)
+*/
+
 @media(max-width: 912px) {
     .cabeça {
         background-image: url('imagens/fundo3-pq1.png');
@@ -40,9 +46,33 @@
     }
 }
 
+@media(max-width: 745px) {
+    .cabeça {
+        background-image: url('imagens/fundo3.png');
+    }
+}
+
 @media(max-width: 732px) {
     .cabeça {
         background-image: url('imagens/fundo3.png');
+    }
+}
+
+@media(max-width: 720px) {
+    .cabeça {
+        background-image: url('imagens/fundo3.png');
+    }
+}
+
+@media(max-width: 717px) {
+    .cabeça {
+        background-image: url('imagens/fundo3.png');
+    }
+}
+
+@media(max-width: 712px) {
+    .cabeça {
+        background-image: url('imagens/fundo3-pq1.png');
     }
 }
 
