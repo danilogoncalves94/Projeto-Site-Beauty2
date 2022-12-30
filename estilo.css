@@ -317,6 +317,11 @@ li:hover {
     color: white;
 }
 
+li:active {
+    cursor: pointer;
+    color: white;
+}
+
 .contato {
     margin: 40px;
     width: auto;
