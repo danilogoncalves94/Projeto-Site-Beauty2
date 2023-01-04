@@ -251,7 +251,7 @@ h2 {
 p {
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
-    margin: 10px 40px;
+    margin: 40px 40px;
     font-size: 28px;
 }
 
@@ -335,6 +335,7 @@ li:active {
 
 div p {
     margin: 10px 0px;
+    width: 100vw;
 }
 
 .logowhats {
