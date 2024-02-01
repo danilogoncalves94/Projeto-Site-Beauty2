@@ -74,17 +74,8 @@
     .cabeça {
         background-image: url('imagens/fundo3-pq1.png');
     }
-}
-
-@media(max-width: 720px) {
-    .cabeça {
-        background-image: url('imagens/fundo3-pq1.png');
-    }
-}
-
-@media(max-width: 717px) {
-    .cabeça {
-        background-image: url('imagens/fundo3-pq1.png');
+    .Logo {
+        width: 70%;
     }
 }
 
@@ -98,6 +89,9 @@
     .cabeça {
         background-image: url('imagens/fundo3.png');
     }
+    .Logo {
+        width: 40%;
+    }
 }
 
 @media(max-width: 640px) {
@@ -109,6 +103,9 @@
 @media(max-width: 600px) {
     .cabeça {
         background-image: url('imagens/fundo3-pq1.png');
+    }
+    .Logo {
+        width: 70%;
     }
 }
 
@@ -133,6 +130,9 @@
 @media(max-width: 393px) {
     .cabeça {
         background-image: url('imagens/fundo3-pq1.png');
+    }
+    .Logo {
+        width: 70%;
     }
 }
 
@@ -163,6 +163,9 @@
     }
     .paragrafoContato {
         font-size: 21px;
+    }
+    .Logo {
+        width: 60%;
     }
 }
 
@@ -216,16 +219,26 @@
 }
 
 body {
-    background-color: rgba(188, 143, 143, 0.144);
+    background-color: rgba(188, 143, 143, 0.145);
 }
 
 header {
     height: 100vh;
-    background-image: url('imagens/fundo3.png');
+    background: url('imagens/fundo3.png') no-repeat right center;
     background-size: cover;
-    background-position: right center;
     background-attachment: fixed;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.479);
+    opacity: 0;              /*!!!!!!!!!!!!!!!!!*/
+    transition: 2s;          /*!!!!!!!!!!!!!!!!!*/
+    transition-property: opacity;           /*!!!!!!!!!!!!!!!!!*/
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    width: 40%; /*70% mobile*/
+    border-radius: 50%;
 }
 
 .titulo {
@@ -342,6 +355,7 @@ div p {
     width: 70px;
     height: 70px;
     margin: 0px -10px;
+    /*transition: 0.2s;*/
 }
 
 .logowhats:active {
@@ -352,6 +366,7 @@ div p {
     width: 70px;
     height: 70px;
     margin: 0px -10px;
+   /*transition: 0.2s;*/
 }
 
 .logoinsta:active {
@@ -368,3 +383,4 @@ a {
     text-decoration: none;
     color: #000000;
 }
+
